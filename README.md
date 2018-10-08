@@ -5,7 +5,7 @@ Working Repository of Zoma2 for a Software Engineering Project
 ## Server
  - Install NodeJS & MongoDB
  - Start the mongodb service
- - clone this repository `git clone https://github.com/rohinrohin/Zoma2`
+ - clone this repository `git clone https://github.com/rohinrohin/zoma2`
  - `cd zoma2` 
  - `npm install`
  - `npm run debug`
