@@ -1,18 +1,17 @@
 # Zoma2 
-Temporary Working Repository of MEttLE during the summer of 2017
+Working Repository of Zoma2 for a Software Engineering Project
 
 # Usage
- - install node (latest)
- - install mongodb(use default port)
- - start mongodb service
- - clone this repository 
- - `git clone https://github.com/rohinrohin/MEttLE`
- - `cd MEttLE` 
+## Server
+ - Install NodeJS & MongoDB
+ - Start the mongodb service
+ - clone this repository `git clone https://github.com/rohinrohin/Zoma2`
+ - `cd zoma2` 
  - `npm install`
- 
-# To run the server
  - `npm run debug`
- // TODO: more detailed usage
+
+## Client
+// TODO
 
 # License
 // TODO
