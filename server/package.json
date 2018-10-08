@@ -1,0 +1,26 @@
+{
+  "name": "zoma2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "DEBUG=zoma2:* npm start",
+    "deploy": "DEBUG=zoma2:* pm2 start ./bin/www --name zoma2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.9.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "passport-local": "^1.0.0"
+  },
+  "description": "Zomato clone built as an SE Project",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC"
+}
