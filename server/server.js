@@ -26,6 +26,10 @@ app.use(bodyParser.json()); // Send JSON responses
 app.use(logger('dev')); // Log requests to API using morgan
 app.use(cors());
 
+app.get("/", function(req, res) {
+  res.send("Server Active. ")
+})
+
 router(app);
 console.log("scene");
 
